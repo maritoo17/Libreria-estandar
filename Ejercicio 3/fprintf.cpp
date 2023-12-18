@@ -9,3 +9,11 @@ int main() {
 
     fprintf(file, "Hola mundo\n");
 
+    fclose (file);
+
+    file = fopen("archivos.txt", "a");
+    if (file == NULL) {
+        printf("No se ha podido abrir para lectura.\n");
+        return 1;
+    }
+
