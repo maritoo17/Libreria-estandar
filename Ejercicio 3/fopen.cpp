@@ -16,3 +16,8 @@ int main() {
     printf("Nombre: %s\n", nombre);
     printf("Edad: %d\n", edad);
 
+    fclose(fichero);
+
+    return 0;
+}
+
