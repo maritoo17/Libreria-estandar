@@ -8,11 +8,11 @@ int main() {
     int comparison = strcmp(str1, str2);
 
     if (comparison == 0) {
-        printf("Las cadenas son iguales\n");
+        printf("Las cadenas son iguales.\n");
     } else if (comparison < 0) {
-        printf("La primera cadena es menor que la segunda\n");
+        printf("La primera cadena es menor que la segunda.\n");
     } else {
-        printf("La primera cadena es mayor que la segunda\n");
+        printf("La primera cadena es mayor que la segunda.\n");
     }
 
     return 0;
