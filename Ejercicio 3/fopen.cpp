@@ -12,3 +12,7 @@ int main() {
         return 1;
     }
 
+    fscanf(fichero, "%s %d", nombre, &edad);
+    printf("Nombre: %s\n", nombre);
+    printf("Edad: %d\n", edad);
+
