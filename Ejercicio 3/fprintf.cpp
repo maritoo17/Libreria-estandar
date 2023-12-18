@@ -6,4 +6,6 @@ int main() {
         printf("No se ha podido abrir el fichero.\n");
         return 1;
     }
-}
+
+    fprintf(file, "Hola mundo\n");
+
