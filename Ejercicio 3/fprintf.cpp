@@ -22,3 +22,5 @@ int main() {
 
     printf("El contenido del fichero es: %s\n", buffer);
 
+    fclose (file);
+
