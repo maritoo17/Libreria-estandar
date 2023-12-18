@@ -20,3 +20,5 @@ int main() {
     char buffer[100];
     fscanf(file, "%s", buffer);
 
+    printf("El contenido del fichero es: %s\n", buffer);
+
