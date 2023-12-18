@@ -17,3 +17,6 @@ int main() {
         return 1;
     }
 
+    char buffer[100];
+    fscanf(file, "%s", buffer);
+
