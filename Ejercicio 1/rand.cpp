@@ -3,6 +3,9 @@
 #include <time.h>
 
 int main() {
-    srand (time(NULL));
-    int num = rand() % 100 + 1; //Genera un numero aleatorio entre 1 y 100
+    int srand(time(NULL));
+    int num = rand() % 100 +1;
+    printf ("El numero aleatorio es %d\n", num);
+
+    return 0;
 }
