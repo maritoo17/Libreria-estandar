@@ -3,4 +3,5 @@
 
 int main() {
     char str[] = "Antoine Griezmann";
+    int len = strlen(str);
 }
