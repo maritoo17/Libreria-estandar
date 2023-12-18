@@ -9,7 +9,7 @@ int main() {
 
     fprintf(file, "Hola mundo\n");
 
-    fclose (file);
+    fclose(file);
 
     file = fopen("archivos.txt", "a");
     if (file == NULL) {
@@ -22,5 +22,8 @@ int main() {
 
     printf("El contenido del fichero es: %s\n", buffer);
 
-    fclose (file);
+    fclose(file);
+
+    return 0;
+}
 
